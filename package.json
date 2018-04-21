@@ -1,0 +1,30 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "This is my first node js API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singh1114/todorestapi.git"
+  },
+  "keywords": [
+    "todo",
+    "nodejs",
+    "restapi"
+  ],
+  "author": "Ranvir Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/singh1114/todorestapi/issues"
+  },
+  "homepage": "https://github.com/singh1114/todorestapi#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.0.7",
+    "nodemon": "^1.17.3"
+  }
+}
